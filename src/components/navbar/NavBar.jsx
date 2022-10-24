@@ -7,8 +7,14 @@ const NavBar = () => {
 
 const [click, setClick] = useState(false);
 console.log(click)
-const handleClick = () => setClick(!click);
-
+const handleClick = () =>{
+  setClick(!click);
+  if(click){
+    document.body.style.overflow = ''
+  }else{
+    document.body.style.overflow = 'hidden'
+  }
+}
   return (
     <div className='header-container'>
       <Link to='/'>
