@@ -4,8 +4,7 @@
     background-position: center center;
     display: flex;
     align-items: center;
-    height: 100vh; 
-    
+    height: 100vh;    
 }
 
 .banner-container:before {
@@ -16,7 +15,6 @@
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
-    border-bottom: 5px solid white;
 }
 
 .banner-content{
